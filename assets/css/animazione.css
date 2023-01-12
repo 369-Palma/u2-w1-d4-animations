@@ -1,0 +1,38 @@
+html,
+body {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  position: relative;
+  top: 150px;
+  width: 500px;
+  line-height: 3px;
+  font-weight: 700;
+  border: 1px solid black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: small bold;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+span {
+  color: #7690a2;
+  border: 1px solid black;
+}
+#frase1 {
+  position: relative;
+  top: 150px;
+  margin: 0;
+  animation: nuovafrase 10s ease infinite;
+}
+@keyframes nuovafrase {
+  0% {
+    position: relative;
+    top: -193px;
+    opacity: 0;
+  }
+}
