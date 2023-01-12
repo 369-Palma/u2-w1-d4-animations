@@ -30,6 +30,8 @@ body {
     rgb(255, 245, 203) 15%,
     rgb(182, 227, 212) 200%
   );
+  box-shadow: 3px 3px #545353;
+  transform: rotate(-10deg);
 }
 .verde {
   width: 100px;
@@ -39,12 +41,14 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1px;
-  background-color: rgb(199, 245, 199)
-    /* background: linear-gradient(
+  background-color: rgb(199, 245, 199);
+  box-shadow: 3px 3px #545353;
+  /* background: linear-gradient(
       181deg,
       rgb(199, 245, 199) 15%,
       rgb(161, 183, 162) 200% 
-    )*/;
+    )*/
+  transform: rotate(10deg);
 }
 
 .blu {
@@ -56,6 +60,8 @@ body {
   justify-content: center;
   padding: 1px;
   background-color: #c0c2eb;
+  transform: rotate(-10deg);
+  box-shadow: 3px 3px #545353;
 }
 .giallo p {
   margin-top: 0;
