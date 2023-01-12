@@ -13,7 +13,7 @@ body {
   justify-content: space-evenly;
   position: relative;
   top: 180px;
-  width: 50%;
+  width: 600px;
   height: 300px;
   background-color: grey;
 }
@@ -32,6 +32,22 @@ body {
   );
   box-shadow: 3px 3px #545353;
   transform: rotate(-10deg);
+  transition: all 0.5s ease;
+}
+.giallo:hover {
+  transform: rotate(0deg) scale(1.3);
+  z-index: 5;
+  box-shadow: 6px 6px #545353;
+}
+.verde:hover {
+  transform: rotate(0deg) scale(1.3);
+  z-index: 5;
+  box-shadow: 6px 6px #545353;
+}
+.blu:hover {
+  transform: rotate(0deg) scale(1.3);
+  z-index: 5;
+  box-shadow: 6px 6px #545353;
 }
 .verde {
   width: 100px;
@@ -49,6 +65,7 @@ body {
       rgb(161, 183, 162) 200% 
     )*/
   transform: rotate(10deg);
+  transition: all 0.5s ease;
 }
 
 .blu {
@@ -62,6 +79,7 @@ body {
   background-color: #c0c2eb;
   transform: rotate(-10deg);
   box-shadow: 3px 3px #545353;
+  transition: all 0.5s ease;
 }
 .giallo p {
   margin-top: 0;
